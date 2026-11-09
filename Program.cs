@@ -193,7 +193,7 @@ namespace InventoryManagement
             Console.Write("Ange ID på produkten: ");
             if (!int.TryParse(Console.ReadLine(), out int id)) return;
 
-            Product p = products.Find(prod => prod.Id == id);
+            Product? p = products.Find(prod => prod.Id == id) ;
             if (p == null)
             {
                 Console.WriteLine("Produkten hittades inte.");
@@ -269,7 +269,7 @@ namespace InventoryManagement
                 }
                 Console.WriteLine("All data har sparats till inventory.txt!");
             }
-            catch (Exception ex)
+            catch (Exception )
             {
                 Console.WriteLine(
 
