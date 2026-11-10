@@ -33,3 +33,11 @@ Applikationen stöder fullständig datahantering via en interaktiv konsolmeny me
 
 • Migrera datalagringen från en enkel textfil till en relationell SQL-databas med hjälp av Entity Framework.
 • Vidareutveckla systemet till ett mer omfattande verktyg för Asset Tracking för att spåra avancerade företagstillgångar (hårdvara, mjukvarulicenser, etc.).
+
+# 📊 Presentation för redovisning
+
+Projektets presentationsbilder finns bifogade i mappen under namnet PRESENTATION.odp (eller .pdf).
+
+• För lärare / Bedömare:
+◦ Du kan ladda ner .odp-filen direkt från detta repositorium och öppna den i OpenOffice Impress, LibreOffice eller Microsoft PowerPoint.
+◦ För en snabb förhandsgranskning direkt i webbläsaren utan att ladda ner något, vänligen öppna .pdf-versionen av presentationen.
