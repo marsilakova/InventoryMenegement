@@ -36,7 +36,7 @@ Applikationen stöder fullständig datahantering via en interaktiv konsolmeny me
 
 # 📊 Presentation för redovisning
 
-Projektets presentationsbilder finns bifogade i mappen under namnet Lagerhanteringssystem.odp (eller .pdf).
+Projektets presentationsbilder finns bifogade i mappen under namnet PRESENTATION.odp (eller .pdf).
 
 • För lärare / Bedömare:
 ◦ Du kan ladda ner .odp-filen direkt från detta repositorium och öppna den i OpenOffice Impress, LibreOffice eller Microsoft PowerPoint.
