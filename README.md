@@ -51,6 +51,10 @@ Projektets presentationsbilder finns bifogade i mappen under namnet PRESENTATION
 ◦ Du kan ladda ner .odp-filen direkt från detta repositorium och öppna den i OpenOffice Impress, LibreOffice eller Microsoft PowerPoint.
 ◦ För en snabb förhandsgranskning direkt i webbläsaren utan att ladda ner något, vänligen öppna .pdf-versionen av presentationen.
 
+# Utmaningarna 
+
+Under projektets gång stötte jag på några intressanta tekniska utmaningar. Den största var hanteringen av decimaltal och regionala inställningar, eftersom svenska system använder komma medan filen behövde punkt – vilket jag löste med CultureInfo.InvariantCulture. En annan utmaning var att säkerställa att produkt-ID:n inte duplicerades när data laddades in från textfilen vid omstart, samt att skydda programmet mot felaktig inmatning och filfel med hjälp av TryParse och try-catch.
+
  # Slutsats
  
  Sammanfattningsvis har det här projektet gett mig stor praktisk erfarenhet av OOP-principer och filhantering i C#. Programmet fungerar stabilt och uppfyller alla krav. Jag vill också nämna att den här arkitekturen ligger till grund för vårt veckoprojekt under vecka 45, som handlar om Asset Tracking Level 3. Logiken är så pass flexibel att den enkelt kan anpassas för att spåra mer avancerade tillgångar. Som nästa steg i framtiden vill jag också migrera till en riktig SQL-databas. 
