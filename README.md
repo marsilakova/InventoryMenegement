@@ -34,6 +34,14 @@ Applikationen stöder fullständig datahantering via en interaktiv konsolmeny me
 • Migrera datalagringen från en enkel textfil till en relationell SQL-databas med hjälp av Entity Framework.
 • Vidareutveckla systemet till ett mer omfattande verktyg för Asset Tracking för att spåra avancerade företagstillgångar (hårdvara, mjukvarulicenser, etc.).
 
+# Projekt Skeleton
+
+Jag har följt samma logiska uppdelning som i det här exemplet, men valt att behålla koden i en och samma fil (Program.cs) för att göra det mer överskådligt i den här första versionen. Jag har en tydlig datamodell i klassen Product, separata metoder för all affärslogik och CRUD-hantering, samt en egen textfil (inventory.txt) och README.md. Nästa naturliga steg i vidareutvecklingen är att bryta ut klassen Product och filhanteringen till egna mappar som Models och Services.
+
+# Felhantering
+
+Jag har implementerat felhantering på flera ställen för att göra applikationen stabil. För det första använder jag try-catch-block i metoderna LoadData och SaveData för att hantera eventuella filfel utan att programmet kraschar. För det andra använder jag int.TryParse när användaren matar in ett produkt-ID, och jag använder CultureInfo.InvariantCulture för att säkert hantera decimaltal med punkt.
+
 # 📊 Presentation för redovisning
 
 Projektets presentationsbilder finns bifogade i mappen under namnet PRESENTATION.odp (eller .pdf).
