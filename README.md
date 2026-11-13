@@ -2,7 +2,7 @@
 
 Detta är ett individuellt mjukvaruprojekt i form av en konsolapplikation utvecklad i C# och .NET. Programmet är utformat för att hjälpa företag att hantera och kontrollera sitt produktlager på ett smidigt och effektivt sätt.
 
-Systemets arkitektur bygger på principerna för objektorienterad programmering (OOP) och har en flexibel struktur som även ligger till grund för vidareutveckling, bland annat veckoprojektet Asset Tracking Level 2 (Vecka 45) .
+Systemets arkitektur bygger på principerna för objektorienterad programmering (OOP) och har en flexibel struktur som även ligger till grund för vidareutveckling, bland annat veckoprojektet Asset Tracking Level 3 (Vecka 45) .
 
 # 🚀 Huvudfunktioner (CRUD)
 
@@ -33,6 +33,7 @@ Applikationen stöder fullständig datahantering via en interaktiv konsolmeny me
 
 • Migrera datalagringen från en enkel textfil till en relationell SQL-databas med hjälp av Entity Framework.
 • Vidareutveckla systemet till ett mer omfattande verktyg för Asset Tracking för att spåra avancerade företagstillgångar (hårdvara, mjukvarulicenser, etc.).
+Sammanfattningsvis har det här projektet gett mig stor praktisk erfarenhet av OOP-principer och filhantering i C#. Programmet fungerar stabilt och uppfyller alla krav. Jag vill också nämna att den här arkitekturen ligger till grund för vårt veckoprojekt under vecka 45, som handlar om Asset Tracking Level 3. Logiken är så pass flexibel att den enkelt kan anpassas för att spåra mer avancerade tillgångar. Som nästa steg i framtiden vill jag också migrera till en riktig SQL-databas. 
 
 # Projekt Skeleton
 
@@ -49,3 +50,7 @@ Projektets presentationsbilder finns bifogade i mappen under namnet PRESENTATION
 • För lärare / Bedömare:
 ◦ Du kan ladda ner .odp-filen direkt från detta repositorium och öppna den i OpenOffice Impress, LibreOffice eller Microsoft PowerPoint.
 ◦ För en snabb förhandsgranskning direkt i webbläsaren utan att ladda ner något, vänligen öppna .pdf-versionen av presentationen.
+
+ # Slutsats
+ 
+ Sammanfattningsvis har det här projektet gett mig stor praktisk erfarenhet av OOP-principer och filhantering i C#. Programmet fungerar stabilt och uppfyller alla krav. Jag vill också nämna att den här arkitekturen ligger till grund för vårt veckoprojekt under vecka 45, som handlar om Asset Tracking Level 3. Logiken är så pass flexibel att den enkelt kan anpassas för att spåra mer avancerade tillgångar. Som nästa steg i framtiden vill jag också migrera till en riktig SQL-databas. 
